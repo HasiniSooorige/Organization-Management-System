@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .centered-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .centered-card .card-title{
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+@media (min-width: 1200px) {
+    .centered-card .card {
+        width: 40%;
+    }
+}
+@media (min-width: 2000px) {
+    .centered-card .card {
+        width: 70%;
+    }
+}
+@media (max-width: 1201px) {
+    .centered-card .card {
+        width: 80%;
+    }
+}

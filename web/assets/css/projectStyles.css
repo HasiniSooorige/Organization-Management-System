@@ -1,0 +1,154 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 17, 2023, 3:04:35 PM
+    Author     : HP
+*/
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    overflowY: none;
+
+    background-color: #fff;
+
+}
+.selectBox {
+    position: relative;
+}
+
+.selectBox select {
+    width: 100%;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#checkboxes {
+    background-color: white;
+    width: 30%;
+    padding-left: 10px;
+    position: absolute;
+    display: none;
+    border: 1px #dadada solid;
+    border-radius: 5px;
+}
+
+.viewDocStyle{
+    background-color: white !important;
+    border: none !important;
+    pointer-events: none !important;
+}
+
+
+#uploadedImage {
+    width: auto;
+    height: 350px;
+}
+
+#viewClientImage{
+    width: auto;
+    height: 350px;
+}
+
+.project-client-cell {
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.resignLable{
+    height: 50px !important;
+    background-color: white !important;
+    border: 2px #ff0000 solid !important;
+    border-radius: 0px !important;
+    text-align: center !important;
+    color: red !important;
+}
+.page-size.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Style pagination numbers */
+.pagination li {
+    text-align: right;
+    margin-right: 5px;
+    font-size: 16px; 
+    position: relative;
+}
+
+.pagination .page-item.active a {
+    border: 1px solid #007bff;
+    padding: 6px 10px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+
+#tableDataDivTask{
+    max-height: 700px;
+}
+
+#tbleHeaderTask{
+    overflow-y: none;
+}
+
+#task_project_table_body{
+    overflow-y: auto;
+}
+
+#adminMsgDiv{
+    border: 2px #2be03a solid; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #f0fcf1; 
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    padding: 20px;
+}
+
+#userMsgDiv{
+    border: 2px #8271f5 solid; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #f6f5ff; 
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    padding: 20px;
+}
+
+#adminMsgDivUser{
+    border: 2px #2be03a solid; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #f0fcf1; 
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    padding: 20px;
+}
+
+#userMsgDivUser{
+    border: 2px #8271f5 solid; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #f6f5ff; 
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    padding: 20px;
+}
+
+#mainMsgDiv{
+    margin-left: 5px;
+    margin-right: 8px;
+}
